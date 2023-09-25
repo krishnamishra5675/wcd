@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path.css">
+      <title></title>
+  </head>
+  <body>
+<header>
+  <nav class="navbar">
+    <div class="navbar__sub">
+    <div class="navbar__govt__logo">
+      <img src="gov.jpg" alt="govt logo" class="govt__logo">
+      </div>
+
+      <div class="govt__text">
+        <h1>Department of Women and Child Development</h1>
+        <h3>Government of NCT of Delhi</h3>
+
+      </div>
+
+      </div><div class="navbar__sub__1">
+
+
+      <div class="indian__flag">
+        <img src="indianflag.jpg" alt="indian  flag logo" class="indian__flag__logo">
+        </div>
+        <div class="women__logo">
+          <img src="women.jpg" alt="women logo" class="women__logo__img">
+        </div>  </div>
+  </nav>
+</header>
+
+  </body>
+</html>
+
+
+
+
+
+css
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Merriweather', serif;
+  background-color: #ebf2ff;
+}
+.navbar{
+  background-color: #fff;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__sub
+{
+    display: flex;
+    align-items: center;
+  justify-content: flex-start;
+}
+.navbar__sub__1
+{
+    display: flex;
+    align-items: center;
+  justify-content: flex-end;
+}
+.navbar__govt__logo{
+  width: 180px;
+}
+.govt__logo{
+  width: 100%;
+
+}
+.govt__text
+{
+  font-size: 8px;
+  margin-left: -40px;
+}
+.indian__flag
+{
+  width: 80px;
+  margin-right: 5px;
+}
+.indian__flag__logo{
+    width: 100%;
+}
+.women__logo{
+  width: 80px;
+}
+.women__logo__img{
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .navbar__govt__logo{
+    width: 140px;
+  }
+}
+
+
+
+
+departmenthtml
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="departmentallogin.css">
+<title></title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="navbar__sub">
+      <div class="navbar__govt__logo">
+        <img src="gov.jpg" alt="govt logo" class="govt__logo">
+        </div>
+  <div class="govt__text">
+          <h1>Department of Women and Child Development</h1>
+          <h3>Government of NCT of Delhi</h3>
+    </div>
+    </div>
+        <div class="navbar__sub__1">
+    <div class="indian__flag">
+          <img src="indianflag.jpg" alt="indian  flag logo" class="indian__flag__logo">
+          </div>
+          <div class="women__logo">
+            <img src="women.jpg" alt="women logo" class="women__logo__img">
+          </div>  </div>
+    </nav>
+    <div class="btn">
+  <div class="bttn__division">
+
+
+  <button type="button" class="bttn button__home">Home</button>
+    <button type="button" class="bttn button__about">About</button>
+       <button type="button" class="bttn button__how-to-apply">How to Apply</button>
+       <button type="button" class="bttn button__Branches__Services">Branches/Services</button>
+       <button type="button" class="bttn button__Our__Districts">Our Districts</button>
+       <button type="button" class="bttn button__Department__Website">Department Website</button>
+       <button type="button" class="bttn button__Contact__Us">Contact Us</button>
+         <button type="button" class="bttn button__Old__Advertisements">Old Advertisements</button>
+
+
+       </div>
+       <div class="button__division__right">
+  <a href="C:\Users\krish\Desktop\path\departmentallogin.html">   <button type="button" class="bttn button__login">Login</button></a>
+       </div>
+       </div>
+  </header>
+
+
+
+
+
+    <div class="login__page">
+      <div class="form">
+        <div class="login">
+          <div class="login__header">
+            <img src="gov.jpg" alt="govt logo" class="govt__logo__login__page">
+            <h4>Department of Women and Child Development</h4>
+
+          </div>
+        </div>
+        <form class="login__form">    <input type="username" placeholder="username"/>
+          <div class="text">
+            Enter your DIT Department username.
+          </div>
+          <input type="password" placeholder="password"/>
+        <div class="text">
+          Enter the password that accompanies your username.
+        </div>
+          <button>login</button>
+
+        </form>
+      </div>
+    </div>
+
+
+
+
+    <footer class="footer__main">
+          <div class="footer__top ">
+             <div class="container">
+                <div class="row__footer">
+                   <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                      <div class="inner-column tab-mb-25">
+                        <div class="footer__top__region__left">
+        <nav role="navigation" class="wcdfooter__quick__links" aria-labelledby="wcdfooter__quick__links" id="wcdfooter__quick__links">
+
+      <h2 id="wcdfooter__quick__links" >Quick Links</h2>
+
+
+
+                  <ul class="quick__links">
+                        <li class="quick__links__item">
+            <a class="Links" href="/wcd/accessibility__statement" ><i class="arrow__right"></i>Accessibility Statement</a>
+                  </li>
+                    <li class="quick__links__item">
+            <a class="Links" href="/wcd/copyright__policy" ><i class="arrow__right"></i>Copyright Policy</a>
+                  </li>
+                    <li class="quick__links__item">
+            <a class="Links" href="/wcd/disclaimer" ><i class="arrow__right"></i>Disclaimer</a>
+                  </li>
+                    <li class="quick__links__item">
+            <a class="Links" href="/wcd/feedback" ><i class="arrow__right"></i>Feedback</a>
+                  </li>
+                    <li class="quick__links__item">
+            <a class="Links" href="/wcd/hyperlink__policy"><i class="arrow__right"></i>Hyperlink Policy</a>
+                  </li>
+                    <li class="quick__links__item">
+            <a class="Links" href="/wcd/privacy__policy" ><i class="arrow__right"></i>Privacy Policy</a>
+                  </li>
+                    <li class="quick__links__item">
+            <a class="Links" href="/wcd/terms__and__conditions" ><i class="arrow__right"></i>Terms & Conditions</a>
+                  </li>
+                    <li class="quick__links__item">
+            <a class="Links" href="/wcd/terms__use"><i class="arrow__right"></i>Terms of Use</a>
+                  </li>
+                    <li class="quick__links__item">
+            <a class="Links" href="/wcd/help" ><i class="arrow__right"></i>Help</a>
+                  </li>
+            </ul>
+      </nav>
+      </div>
+                      </div>
+                   </div>
+                   <div class="col-sm-12 col-md-6 col-lg-4 ">
+                      <div class="inner-column tab-mb-25">
+                           <div class="footer__top__region__center">
+        <div class="address" id="address__of__wcd">
+          <h2>Address</h2>
+                <div><ul class="contact__details">
+    	<li class="contact__details__item"><i class='fas fa-map-marker-alt' style='font-size:20px'></i>  Department of Women and Child Development</br><br>
+    	Maharana Pratap ISBT Building,</br><br>
+    	Kashmere Gate, Delhi - 110006</li>
+    	<li class="contact__details__item"><i class='fas fa-phone' style='font-size:15px'></i> +91-11-23070378, +91-11-23380513</li>
+    	<li class="contact__details__item"><i class="fas fa-fax" style='font-size:15px'></i> +91-11-23070379</li>
+    	<li class="contact__details__item"><i class="fas fa-envelope" style='font-size:15px'></i> wcd[at]nic[dot]in</li>
+    </ul>
+    </div>
+      </div>
+      </div>
+          </div>
+                   </div>
+                   <div class="col-sm-12 col-md-6 col-lg-4">
+                      <div class="inner-column tab-mb-25">
+                          <div class="footer__top__region__right">
+        <div class="map" id="map__of__wcd">
+    <h2 class="footer__headings">Map of Women and Child Development</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d448091.558667188!2d77.229979!3d28.668242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdc7250e29ef%3A0x248f8ea42e34ab11!2sDepartment%20of%20Women%20and%20Child%20Development%2C%20Govt.%20of%20NCT%20of%20Delhi!5e0!3m2!1sen!2sin!4v1693752762578!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+            </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+           <div class="footer__bottom">
+             <div class="container">
+                <div class="row__footer">
+                   <div class="footer__bottom__region__bottom">
+        <div class="copyright" id="wcd__copyright"><p>Copyright © - All Right Reserved - Official Website of Government of National Capital Territory of Delhi, India.</p>
+      </div>
+    </div>
+                </div>
+             </div>
+          </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+css2
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+h4{
+  margin-top: -5px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.govt__logo__login__page{
+  width: 200px;
+  margin-top: -30px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family:  'Merriweather', serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form  a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(17,112,134,1) 69%, rgba(2,74,88,1) 100%);
+  font-family:   "Roboto", sans-serif;
+
+}
+  .text{
+    font-size: 13px;
+    text-align: left;
+    vertical-align: top;
+
+    margin: 2px 1px 15px;
+  }
+
+
+
+
+
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'Merriweather', serif;
+    background-color: #fff;
+  }
+  div{
+    display: block;
+  }
+  .navbar{
+    background-color: #fff;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar__sub
+  {
+      display: flex;
+      align-items: center;
+    justify-content: flex-start;
+  }
+  .navbar__sub__1
+  {
+      display: flex;
+      align-items: center;
+    justify-content: flex-end;
+  }
+  .navbar__govt__logo{
+    min-width: 40px;
+  max-width: 140px;
+  margin-left: -20px;
+  }
+  .govt__logo{
+    width: 100%;
+
+  }
+  .govt__text
+  {
+    font-size: 8px;
+    font-size-adjust: auto;
+    margin-left: -35px;
+  }
+  .indian__flag
+  {
+    min-width: 40px;
+    max-width: 80px;
+    margin-right: 5px;
+  }
+  .indian__flag__logo{
+      width: 100%;
+  }
+  .women__logo{
+    min-width: 40px;
+    max-width: 80px;
+  }
+  .women__logo__img{
+    width: 100%;
+  }
+  .bttn__division{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .button__division__right{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn{
+
+  background-image: linear-gradient(
+      to right,
+      #000080 0%,
+      #000080 51%,
+      #000080 100%
+      );
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 4px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+    }
+    .bttn{
+
+    background-image: linear-gradient(
+        to right,
+        #000080 0%,
+        #000080 51%,
+        #000080 100%
+        );
+        color: #fff;
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        font-weight: 600;
+  font-size: 14px;
+      }
+
+    .bttn:hover{
+
+        background-image: linear-gradient(
+            to right,
+            #0018f9 0%,
+            #0018f9 51%,
+            #0018f9 100%
+            );
+    border: 0.80px solid #0000ff;
+    cursor: pointer;
+  }
+
+    .footer__top{
+  background-color: #0B2543;
+      padding: 45px 0px;
+    }
+    h2,.footer__headings{
+  color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+  .row__footer{
+      display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+    .footer__top__region__left,.footer__top__region__center,.footer__top__region__right{
+
+      font-size: 16px;
+      line-height: 20px;
+      color: #fff;
+      font-weight: 700;
+      padding-bottom: 10px;
+    }
+    .quick__links__item,.Links,.contact__details__item
+    {
+      font-size: 13px;
+      line-height: 14px;
+      color: #fff;
+      font-weight: 500;
+      padding-bottom: 6px;
+      margin-bottom: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .arrow__right{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right: 10px;
+    }
+
+
+  .footer__bottom{
+    height: 40px;
+    background-color: #04182F;
+    color: #ffffff;
+
+  }
+  .copyright
+  {
+    font-size: 13px;
+    line-height: 35px;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 6px;
+    display: flex;
+  align-items: center;
+    justify-content:center;
+    margin-bottom: 5px;
+
+  }
+
+  @media (min-width: 768px) {
+    .navbar__govt__logo{
+      width: 140px;
+    }
+  }

@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+h4{
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.govt__logo__login__page{
+  width: 200px;
+  margin-top: -30px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family:  'Merriweather', serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form  a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+
+  .text{
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+
+    margin: 2px 1px 15px;
+  }
+
+
+
+
+
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'Merriweather', serif;
+    background-color: #fff;
+  }
+  div{
+    display: block;
+  }
+  .navbar{
+    background-color: #fff;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar__sub
+  {
+      display: flex;
+      align-items: center;
+    justify-content: flex-start;
+  }
+  .navbar__sub__1
+  {
+      display: flex;
+      align-items: center;
+    justify-content: flex-end;
+  }
+  .navbar__govt__logo{
+    min-width: 40px;
+  max-width: 140px;
+  margin-left: -20px;
+  }
+  .govt__logo{
+    width: 100%;
+
+  }
+  .govt__text
+  {
+    font-size: 8px;
+    font-size-adjust: auto;
+    margin-left: -35px;
+  }
+  .indian__flag
+  {
+    min-width: 40px;
+    max-width: 80px;
+    margin-right: 5px;
+  }
+  .indian__flag__logo{
+      width: 100%;
+  }
+  .women__logo{
+    min-width: 40px;
+    max-width: 80px;
+  }
+  .women__logo__img{
+    width: 100%;
+  }
+  .bttn__division{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .button__division__right{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn{
+
+  background-image: linear-gradient(
+      to right,
+      #000080 0%,
+      #000080 51%,
+      #000080 100%
+      );
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 4px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+    }
+    .bttn{
+
+    background-image: linear-gradient(
+        to right,
+        #000080 0%,
+        #000080 51%,
+        #000080 100%
+        );
+        color: #fff;
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        font-weight: 600;
+  font-size: 14px;
+      }
+
+    .bttn:hover{
+
+        background-image: linear-gradient(
+            to right,
+            #0018f9 0%,
+            #0018f9 51%,
+            #0018f9 100%
+            );
+    border: 0.80px solid #0000ff;
+    cursor: pointer;
+  }
+
+    .footer__top{
+  background-color: #0B2543;
+      padding: 45px 0px;
+    }
+    h2,.footer__headings{
+  color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+  .row__footer{
+      display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+    .footer__top__region__left,.footer__top__region__center,.footer__top__region__right{
+
+      font-size: 16px;
+      line-height: 20px;
+      color: #fff;
+      font-weight: 700;
+      padding-bottom: 10px;
+    }
+    .quick__links__item,.Links,.contact__details__item
+    {
+      font-size: 13px;
+      line-height: 14px;
+      color: #fff;
+      font-weight: 500;
+      padding-bottom: 6px;
+      margin-bottom: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .arrow__right{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right: 10px;
+    }
+
+
+  .footer__bottom{
+    height: 40px;
+    background-color: #04182F;
+    color: #ffffff;
+
+  }
+  .copyright
+  {
+    font-size: 13px;
+    line-height: 35px;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 6px;
+    display: flex;
+  align-items: center;
+    justify-content:center;
+    margin-bottom: 5px;
+
+  }
